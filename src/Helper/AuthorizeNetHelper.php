@@ -3,7 +3,7 @@
    namespace Grayl\Omnipay\AuthorizeNet\Helper;
 
    use Grayl\Mixin\Common\Traits\StaticTrait;
-   use Grayl\Omnipay\Common\Helper\OmnipayHelperAbstract;
+   use Grayl\Omnipay\Common\Helper\OmnipayHelperCreditCardAbstract;
 
    /**
     * A package of functions for working with various AuthorizeNet objects
@@ -11,7 +11,7 @@
     *
     * @package Grayl\Omnipay\AuthorizeNet
     */
-   class AuthorizeNetHelper extends OmnipayHelperAbstract
+   class AuthorizeNetHelper extends OmnipayHelperCreditCardAbstract
    {
 
       // Use the static instance trait

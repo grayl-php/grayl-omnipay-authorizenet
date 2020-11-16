@@ -7,7 +7,7 @@
    use Grayl\Omnipay\AuthorizeNet\Controller\AuthorizeNetAuthorizeRequestController;
    use Grayl\Omnipay\AuthorizeNet\Controller\AuthorizeNetCaptureRequestController;
    use Grayl\Omnipay\Common\Entity\OmnipayGatewayCreditCard;
-   use Grayl\Omnipay\Common\Helper\OmnipayOrderHelperAbstract;
+   use Grayl\Omnipay\Common\Helper\OmnipayOrderHelperCreditCardAbstract;
    use Grayl\Store\Order\Controller\OrderController;
 
    /**
@@ -16,7 +16,7 @@
     *
     * @package Grayl\Omnipay\AuthorizeNet
     */
-   class AuthorizeNetOrderHelper extends OmnipayOrderHelperAbstract
+   class AuthorizeNetOrderHelper extends OmnipayOrderHelperCreditCardAbstract
    {
 
       // Use the static instance trait
