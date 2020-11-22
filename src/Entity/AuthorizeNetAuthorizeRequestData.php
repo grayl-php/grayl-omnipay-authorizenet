@@ -2,7 +2,7 @@
 
    namespace Grayl\Omnipay\AuthorizeNet\Entity;
 
-   use Grayl\Omnipay\Common\Entity\OmnipayRequestDataAbstract;
+   use Grayl\Omnipay\Common\Entity\OmnipayRequestDataCreditCardAbstract;
 
    /**
     * Class AuthorizeNetAuthorizeRequestData
@@ -10,7 +10,7 @@
     *
     * @package Grayl\Omnipay\AuthorizeNet
     */
-   class AuthorizeNetAuthorizeRequestData extends OmnipayRequestDataAbstract
+   class AuthorizeNetAuthorizeRequestData extends OmnipayRequestDataCreditCardAbstract
    {
 
       // No overrides to the abstract class

@@ -167,7 +167,7 @@
          // Check the total
          $this->assertEquals( 143.41,
                               $request->getRequestData()
-                                      ->getMainParameter( 'amount' ) );
+                                      ->getAmount() );
 
          // Return the object
          return $request;
@@ -290,7 +290,7 @@
          // Check the total
          $this->assertEquals( 143.41,
                               $request->getRequestData()
-                                      ->getMainParameter( 'amount' ) );
+                                      ->getAmount() );
 
          // Return the object
          return $request;
